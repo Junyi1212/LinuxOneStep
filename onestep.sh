@@ -1,4 +1,5 @@
 #!/bin/bash
+echo '开始预备，准备好了吗？'
 sudo apt install lolcat -y
 echo -e '好戏马上开始，让我们开启Linux的装逼之旅吧，请稍等片刻。。。'| lolcat
 
