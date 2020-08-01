@@ -79,7 +79,7 @@ sudo chmod 0755 /usr/local/bin/asciiquarium
 echo '安装完成'| lolcat
 
 echo '开始安装15、高大上仪表盘hollywood'| lolcat
-sudo apt-add-repository ppa:hollywood/ppa
+sudo apt-add-repository ppa:hollywood/ppa -y
 sudo apt install hollywood -y
 sudo apt install byobu -y
 echo '安装完成'| lolcat
